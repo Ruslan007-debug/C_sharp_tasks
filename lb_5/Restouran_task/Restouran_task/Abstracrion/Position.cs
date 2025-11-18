@@ -8,8 +8,19 @@ namespace Restouran_task.Abstracrion
 {
     public abstract class Position
     {
-        public int Cost { get; set; }
-        public int Weight { get; set; }
+        private int cost;
+        public int Cost
+        {
+            get => cost;
+            set => cost = value == 0 ? 100 : value;
+        }
+
+        private int weight;
+        public int Weight
+        {
+            get => weight;
+            set => weight = value == 0 ? 100 : value;
+        }
         public string Name { get; set; }
 
         public Position(int cost, int weight, string name)
