@@ -1,0 +1,14 @@
+{
+  "Name": "Author 1",
+  "Books": [
+    {
+      "Title": "Book 1"
+    },
+    {
+      "Title": "Book 2"
+    },
+    {
+      "Title": "Book 3"
+    }
+  ]
+}
